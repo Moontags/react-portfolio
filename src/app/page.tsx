@@ -1,113 +1,114 @@
+import Head from "next/head";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
+import deved from '../../public/282599.webp';
+import design from '../../public/living-room-1853203_640.jpg';
+import code from '../../public/laptop-1839876_640.jpg';
+import consulting from '../../public/keys-2114363_640.webp';
+import png1 from '../../public/siivous.png';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <div>
+      <Head>
+        <title>Jari Peltole Portfolio</title>
+        <meta name="description" content="Generated"></meta>
+        <link rel="icon" href="./favicon.ico" />
+      </Head>
+      <main className="text-center md:text-center">
+        <section className="bg-[url('https://cdn.pixabay.com/photo/2023/07/19/06/19/ai-generated-8136169_640.png')] h-screen bg-cover bg-center opacity-92">
+          <nav className="p-5 md:p-10 mb-12 flex justify-between items-center">
+            <h1 className="font-semibold font-serif text-white text-xl md:text-2xl">Developer</h1>
+            <ul className="flex items-center">
+              <li className="text-white">
+                <BsFillMoonStarsFill className="cursor-pointer text-lg md:text-xl" />
+              </li>
+              <li className="text-white">
+                <a className="bg-cyan-500 rounded px-3 py-1 ml-4 md:ml-8" href="#">Resume</a>
+              </li>
+            </ul>
+          </nav>
+          <div className="text-white grid justify-center items-center">
+            <h2 className="text-4xl md:text-5xl py-2 font-medium bg-black bg-opacity-50 px-4 rounded inline-block m-2">Jari Peltola</h2>
+            <h3 className="text-xl md:text-2xl py-2 bg-black bg-opacity-50 px-4 rounded m-2 inline-block">Developer and designer</h3>
+            <p className="text-sm md:text-md py-2 leading-8 bg-black bg-opacity-50 px-4 rounded inline-block m-2 max-w-xl mx-auto">Your Vision, Our Creation</p>
+          </div>
+          <div className="text-4xl md:text-5xl text-white flex justify-center gap-8 md:gap-14 py-3 mt-3">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+              <AiFillYoutube />
+            </a>
+          </div>
+          <div className="relative mx-auto rounded-full w-40 h-40 md:w-60 md:h-60 overflow-hidden mt-10 md:mt-20 opacity-65">
+            <Image src={deved} layout="fill" objectFit="cover" alt={"developer"} className="object-cover" />
+          </div>
+        </section>
+        {/* Section two */}
+        <section className="px-5 md:px-40 gap-10">
+          <div className="text-center py-8 m-4">
+            <h2 className="text-4xl md:text-5xl py-4">Services I offer</h2>
+            <h3 className="text-2xl md:text-3xl py-3">Web design and development</h3>
+            <p className="text-md md:text-xl py-2 leading-8">Web design and development involve creating visually appealing and user-friendly websites. This service includes designing the layout, choosing color schemes, and ensuring mobile responsiveness. Development focuses on building the website's <span className="text-cyan-500">functionality, including interactive features, e-commerce integration, and optimizing performance.</span> Together, these services create a seamless online presence for businesses.</p>
+          </div>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 flex-1 mb-10 lg:mb-0">
+              <Image className="relative mx-auto rounded" src={design} alt={"design"} width={200} height={200} />
+              <h3 className="text-lg font-medium pt-8 pb-2">My Design:</h3>
+              <p className="py-2">Creating designs suited for your needs design theory.</p>
+              <h4 className="py-4 text-cyan-500">Design tools I use:</h4>
+              <p className="text-neutral-900 py-1">Photoshop</p>
+              <p className="text-neutral-900 py-1">Illustrator</p>
+              <p className="text-neutral-900 py-1">Figma</p>
+              <p className="text-neutral-900 py-1">Canva</p>
+            </div>
+            <div className="text-center shadow-lg p-10 flex-1 mb-10 lg:mb-0">
+              <Image className="relative mx-auto rounded" src={code} alt={"code"} width={200} height={200} />
+              <h3 className="text-lg font-medium pt-8 pb-2">My Code:</h3>
+              <p className="py-2">Creating designs suited for your needs using the latest technologies.</p>
+              <h4 className="py-4 text-cyan-500">Coding tools I use:</h4>
+              <p className="text-neutral-900 py-1">React</p>
+              <p className="text-neutral-900 py-1">JavaScript</p>
+              <p className="text-neutral-900 py-1">TailwindCSS</p>
+              <p className="text-neutral-900 py-1">Amazon Web Services</p>
+            </div>
+            <div className="text-center shadow-lg p-10 flex-1">
+              <Image className="relative mx-auto rounded" src={consulting} alt={"consulting"} width={200} height={200} />
+              <h3 className="text-lg font-medium pt-8 pb-2">My Consulting:</h3>
+              <p className="py-2">Providing expert advice and guidance to enhance your business strategy and online presence.</p>
+              <h4 className="py-4 text-cyan-500">Consulting tools I use:</h4>
+              <p className="text-neutral-900 py-1">Google Analytics</p>
+              <p className="text-neutral-900 py-1">ChatGPT</p>
+              <p className="text-neutral-900 py-1">Microsoft Teams</p>
+              <p className="text-neutral-900 py-1">Slack</p>
+            </div>
+          </div>
+        </section>
+        <section className="px-5 md:px-40">
+          <div className="text-center mt-8">
+            <h3 className="text-3xl md:text-4xl py-2">Portfolio</h3>
+            <p className="text-md md:text-xl py-2 leading-8 m-3">Here are some examples of websites I have created.</p>
+          </div>
+          <div className="flex flex-col items-center gap-10 md:flex-row md:justify-center md:items-center md:gap-10">
+            <div className="relative w-full md:w-1/2 lg:w-1/3">  
+              <Image src={png1} width={800} height={600} alt={"siivous"} className="rounded-lg object-cover" />
+              <a href="https://moontags.github.io/siivousote/" target="_blank" rel="noopener noreferrer">
+                <button className="absolute inset-0 w-full h-full bg-black bg-opacity-50 text-white text-2xl flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                  Go to Siivousote
+                </button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <footer className="m-10">
+          <h3 className="text-center"> All rights reserved.</h3>
+        </footer>
+      </main>
+    </div>
   );
 }
