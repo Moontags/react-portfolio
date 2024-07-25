@@ -54,7 +54,7 @@ export default function Home() {
           <div className="text-center py-8 m-4">
             <h2 className="text-4xl md:text-5xl py-4">Services I offer</h2>
             <h3 className="text-2xl md:text-3xl py-3">Web design and development</h3>
-            <p className="text-md md:text-xl py-2 leading-8">Web design and development involve creating visually appealing and user-friendly websites. This service includes designing the layout, choosing color schemes, and ensuring mobile responsiveness. Development focuses on building the website's <span className="text-cyan-500">functionality, including interactive features, e-commerce integration, and optimizing performance.</span> Together, these services create a seamless online presence for businesses.</p>
+            <p className="text-md md:text-xl py-2 leading-8">Web design and development involve creating visually appealing and user-friendly websites. This service includes designing the layout, choosing color schemes, and ensuring mobile responsiveness. Development focuses on building the website &apos s <span className="text-cyan-500">functionality, including interactive features, e-commerce integration, and optimizing performance.</span> Together, these services create a seamless online presence for businesses.</p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 flex-1 mb-10 lg:mb-0">
